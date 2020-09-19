@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/api_905a_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/BT_LED_POWER"
+            android:textOff="@string/LedPowerOn"
+            android:textOn="@string/LedPowerOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_LED_R"
+            android:textOff="@string/LedRedOn"
+            android:textOn="@string/LedRedOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_LED_G"
+            android:textOff="@string/LedGreenOn"
+            android:textOn="@string/LedGreenOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_LED_B"
+            android:textOff="@string/LedBlueOn"
+            android:textOn="@string/LedBlueOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_LED_ALL"
+            android:textOff="@string/LedAllOn"
+            android:textOn="@string/LedAllOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_USB_ALL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/UsbAllOn"
+            android:textOn="@string/UsbAllOff"></ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/BT_USB_OTG"
+            android:textOff="@string/UsbOtgOn"
+            android:textOn="@string/UsbOtgOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_USB_1"
+            android:textOff="@string/Usb1On"
+            android:textOn="@string/Usb1Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_USB_2"
+            android:textOff="@string/Usb2On"
+            android:textOn="@string/Usb2Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_USB_3"
+            android:textOff="@string/Usb3On"
+            android:textOn="@string/Usb3Off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+        <ToggleButton
+            android:id="@+id/BT_USB_4G"
+            android:textOff="@string/Usb4GOn"
+            android:textOn="@string/Usb4GOff"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ToggleButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/RelayCtrl"
+            android:textOff="@string/RelayOn"
+            android:textOn="@string/RelayOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ToggleButton
+            android:id="@+id/Rs485SndEn"
+            android:textOff="@string/Rs485Snd"
+            android:textOn="@string/Rs485Rcv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wieGandSnd"/>
+
+        <Spinner
+            android:id="@+id/wiegandSndMode"
+            android:entries="@array/wieGandSndMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/wieGandSndCardNo"
+            android:hint="@string/WieGandSndTip"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="8"
+            android:digits="0123456789aAbBcCDdEeFf"/>
+
+        <Button
+            android:id="@+id/BT_WG_SND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btWiegandSnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wieGandRcv"/>
+
+        <TextView
+            android:id="@+id/wieGandRcvCardNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

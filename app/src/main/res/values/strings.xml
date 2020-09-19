@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">XbhApiDemo</string>
+
+    <!--
+                       Title Name
+    -->
+    <string name="api_common_title">Api Common</string>
+    <string name="api_905a_title">Api 905A</string>
+
+    <!--
+                   Api Name
+    -->
+
+    <string name="save_log">保存系统日志</string>
+    <string name="not_save_log">不保存系统日志</string>
+    <string name="enable_touchscreen">开启触摸屏</string>
+    <string name="disable_touchscreen">不开启触摸屏</string>
+    <string name="enable_key_home">使能Home键</string>
+    <string name="disable_key_home">禁用Home键</string>
+    <string name="enable_key_back">使能Back键</string>
+    <string name="disable_key_back">禁用Back键</string>
+    <string name="forbid_uninstall_app">禁止用户手动卸载APK</string>
+    <string name="allow_uninstall_app">允许用户手动卸载APK</string>
+    <string name="forbid_install_app">禁止用户手动安装APK</string>
+    <string name="allow_install_app">允许用户手动安装APK</string>
+    <string name="exitsleep">开屏</string>
+    <string name="gotosleep">关屏</string>
+    <string name="ShutDown">关机</string>
+    <string name="BtsetAppKeepLive">设置守护程序</string>
+    <string name="appKeepLive">设置守护程序:</string>
+    <string name="appKeepLiveTip">请输入要守护的app包名</string>
+    <string name="BtInstallApp">安装</string>
+    <string name="installAppTip">请输入app的绝对路径/xx/xx/xx.apk</string>
+    <string name="installApp">静默安装APK:</string>
+    <string name="backLight">背光设置:</string>
+    <string name="consoleLevel">设置控制台日志等级:</string>
+    <string name="netDns2">netDns2:</string>
+    <string name="netDns1">netDns1:</string>
+    <string name="netMask">newMask:</string>
+    <string name="netGateway">netGateway:</string>
+    <string name="netIp">netIp:</string>
+    <string name="netMode">netMode:</string>
+    <string name="netType">netType:</string>
+    <string name="WifiMAC">WifiMAC:</string>
+    <string name="EthMacAddress">以太网MAC:</string>
+    <string name="buildDate">编译版本号:</string>
+    <string name="SystemDisplayVersion">系统版本号:</string>
+    <string name="SerialNo">SerialNo:</string>
+    <string name="CpuSerial">CpuSerial:</string>
+    <string name="setEthInfo">设置以太网信息:</string>
+    <string name="click_cnt">屏幕点击次数</string>
+    <string name="enable_eth">打开以太网</string>
+    <string name="disable_eth">关闭以太网</string>
+    <string name="setEthAuto">设置动态获取IP模式</string>
+    <string name="setEthStatic">设置静态IP模式</string>
+    <string name="setEthIp">IP:</string>
+    <string name="setEthGateway">GateWay:</string>
+    <string name="setEthnetMask">NetMask:</string>
+    <string name="setEthDns1">Dns1:</string>
+    <string name="setEthDns2">Dns2:</string>
+    <string name="setEthIpTip">192.168.1.100</string>
+    <string name="setEthGateWayTip">192.168.1.1</string>
+    <string name="setEthNetMaskTip">255.255.255.0</string>
+    <string name="setEthDns1Tip">8.8.8.8</string>
+    <string name="setEthDns2Tip">4.4.4.4</string>
+    <string name="setEthStaticTip">请完善IP/GateWay/NetMask!</string>
+
+    <string name="LedPowerOn">LED供电开</string>
+    <string name="LedPowerOff">LED供电关</string>
+    <string name="LedRedOn">红灯亮</string>
+    <string name="LedRedOff">红灯灭</string>
+    <string name="LedGreenOn">绿灯亮</string>
+    <string name="LedGreenOff">绿灯灭</string>
+    <string name="LedBlueOn">蓝灯亮</string>
+    <string name="LedBlueOff">蓝灯灭</string>
+    <string name="LedAllOn">所有灯亮</string>
+    <string name="LedAllOff">所有灯灭</string>
+
+    <string name="UsbAllOn">所有USB供电开</string>
+    <string name="UsbAllOff">所有USB供电关</string>
+    <string name="UsbOtgOn">USBOTG供电开</string>
+    <string name="UsbOtgOff">USBOTG供电关</string>
+    <string name="Usb1On">USB1供电开</string>
+    <string name="Usb1Off">USB1供电关</string>
+    <string name="Usb2On">USB2供电开</string>
+    <string name="Usb2Off">USB2供电关</string>
+    <string name="Usb3On">USB3供电开</string>
+    <string name="Usb3Off">USB3供电关</string>
+    <string name="Usb4GOn">USB4G供电开</string>
+    <string name="Usb4GOff">USB4G供电关</string>
+
+    <string name="RelayOn">继电器开</string>
+    <string name="RelayOff">继电器关</string>
+    <string name="Rs485Snd">RS485发送模式</string>
+    <string name="Rs485Rcv">RS485接收模式</string>
+
+    <string name="wieGandSnd">韦根发送模式：</string>
+    <string name="WieGandSndTip">16进制韦根卡号(aabb1122)</string>
+    <string name="btWiegandSnd">发送韦根卡号</string>
+    <string name="wieGandRcv">韦根接收卡号：</string>
+
+    <string name="wieGandcardNoTip">请输入韦根卡号!</string>
+    <string name="installApkTip">请输入需要安装的Apk！</string>
+
+    <string name="doGotoSleepTip">3秒后息屏，30秒后亮屏！</string>
+
+</resources>
